@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Bernally | Cafeteria</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="imagem/Logo.png" alt="Coffe Bernally Logo">
+        </div>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#cardapio">Cardápio Completo</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Aconchego, Gatinhos e Delícias! Sua Cafeteria mais Fofa.</h1>
+            <a href="#cardapio" class="btn btn-coffee">
+    Ver Cardápio
+</a>
+        </div>
+        <div class="hero-image">
+            <img src="imagem/Principal.png" alt="Café e gatinhos ">
+        </div>
+    </section>
+
+    <section class="menu-section" id="cardapio">
+        <h2>Nosso Cardápio</h2>
+
+        <div class="menu-grid ">
+            <div class="card ">
+                <img src="imagem/card1.png" alt="Latte Miau">
+                <h3>Latte de Caramelo</h3>
+                <p>Latte de caramelo cremosa e quentinha.</p>
+                <span class="price ">R$ 5,00</span>
+                <button class="btn btn-coffee" onclick="toggleInfo(this)">
+    Quero esse!
+</button>
+                <p class="info">
+                    Ingredientes: leite, café espresso, caramelo, chantilly.
+                </p>
+            </div>
+            <div class="card ">
+                <img src="imagem/card2.png" alt="Sanduíche Patinha">
+                <h3>Sanduíche </h3>
+                <p>Sanduíche Diferenciado Gourmet</p>
+                <span class="price ">R$ 5,00</span>
+                <button class="btn btn-coffee" onclick="toggleInfo(this)">
+    Quero esse!
+</button>
+                <p class="info">
+                    Ingredintes: pão brioche, frango grelhado, queijo, alface, tomate e molho especial.
+                </p>
+            </div>
+            <div class="card ">
+                <img src="imagem/card3.png" alt="Muffin Gatinho">
+                <h3>Muffin</h3>
+                <p>Muffin Tradicional de Chocolate.</p>
+                <span class="price ">R$ 5,00</span>
+                <button class="btn btn-coffee" onclick="toggleInfo(this)">
+    Quero esse!
+</button>
+                <p class="info">
+                    Ingredientes: farinha, ovos, açúcar, leite, fermento e chocolate ou frutas.
+                </p>
+            </div>
+            <div class="card ">
+                <img src="imagem/card4.png" alt="Boba Chá">
+                <h3>Boba de Chá Verde</h3>
+                <p>Chá verde gelado com boba.</p>
+                <span class="price ">R$ 5,00</span>
+                <button class="btn btn-coffee" onclick="toggleInfo(this)">
+    Quero esse!
+</button>
+                <p class="info">
+                    Ingredientes: matcha, leite, açúcar, gelo e pérolas de tapioca.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <p>💬 (61) 99435-7354 | 📸 @coffeBernally</p>
+    </footer>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
